@@ -19,8 +19,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::resource('fabricante','FabricanteController');
+//Route::resource('fabricante','FabricanteController');
 
-Route::resource('vehiculo','VehiculoController',['only'=>['index','show']]);
+//Route::resource('vehiculo','VehiculoController',['only'=>['index','show']]);
 
-Route::resource('fabricante.vehiculo','FabricanteVehiculoController',['except'=>['show']]);
+//Route::resource('fabricante.vehiculo','FabricanteVehiculoController',['except'=>['show']]);
